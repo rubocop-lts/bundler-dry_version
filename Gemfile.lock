@@ -86,7 +86,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler-dry_version!
-  rubocop-lts!
+  rubocop-lts
 
 BUNDLED WITH
    2.4.13

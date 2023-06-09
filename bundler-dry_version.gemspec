@@ -30,9 +30,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # The version here will be constrained to a much lower version that the latest release, which is v24.
-  # It is also constrained to a precise, specific, version (not ~> or >=)
   # See Gemfile, and Gemfile.lock for the interplay.
-  spec.add_development_dependency "rubocop-lts", "8.1.1"
+  spec.add_development_dependency "rubocop-lts", "~> 8.0"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
